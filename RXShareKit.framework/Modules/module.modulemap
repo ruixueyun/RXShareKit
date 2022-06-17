@@ -1,0 +1,6 @@
+framework module RXShareKit {
+  umbrella header "RXShareKit.h"
+
+  export *
+  module * { export * }
+}
