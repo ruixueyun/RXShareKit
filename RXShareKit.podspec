@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RXShareKit'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'RXShareKit UI framework.'
 
 # This description is used to generate tags and improve searc results.
@@ -36,8 +36,5 @@ TODO: Add long description of the pod here.
    
   #s.resources          = "RXShareKit/Support.bundle"
   
-  # s.resource_bundles = {
-  #   'RXSDK' => ['RXSDK/Assets/*.png']
-  # }
 
 end
