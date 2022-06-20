@@ -28,11 +28,13 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/ruixueyun/RXShareKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
+  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
+  
   s.ios.deployment_target = '10.0'
   
    s.vendored_frameworks = '*.framework'
    
-  s.resources          = "RXShareKit/Support.bundle"
+  #s.resources          = "RXShareKit/Support.bundle"
   
   # s.resource_bundles = {
   #   'RXSDK' => ['RXSDK/Assets/*.png']
